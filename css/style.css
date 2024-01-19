@@ -1,0 +1,357 @@
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #AB3131;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #540202;
+}
+
+
+h2{
+    font-family: 'Cantata One', serif;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+   
+    font-family: 'Cantata One', serif;
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+fieldset.receipt{
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.error
+{
+    padding: 2%;
+    color: #AB3131;
+}
+
+.success
+
+{
+    padding: 2%;
+    color: #507B58;
+}
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 35%;
+    float: left;
+    position: relative;
+    margin: 10px 380px -40px 390px;
+}
+
+.navbar{
+    margin-bottom: -20px;
+    background: rgb(96,5,5);
+    background: linear-gradient(321deg, rgba(96,5,5,1) 27%, rgba(0,0,0,1) 54%, rgba(27,113,64,0.981127485173757) 100%);
+
+}
+.menu{
+    line-height: 60px;
+    height: 135px;
+}
+
+.menu ul {
+    list-style-type: none;
+    width:75%;     
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 425px;
+    
+    }
+
+.menu li {
+    float: left;
+    }
+
+.menu li:hover{
+    font-weight: bold;
+}
+
+.menu li a {
+    
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+    }
+
+
+/* CSS for Food Search Section */
+
+.food-search{
+   
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    color: white;
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5));
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+/* CSS for Categories */
+.categories{
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/PizzaMove.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/Frontbg-Pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    color: white;
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5));
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social and Footer*/
+
+
+
+.container{
+    display: table;
+    margin: 0 auto;
+    margin-bottom: -5%;
+}
+
+.social{
+    background: black;
+    height: 84px;
+}
+
+.footer{
+    background: black;
+    color: white;
+}
+
+
+.social img{
+    height: 70px;
+    width: 70px;
+}
+
+.social ul{
+    min-width: 696px;
+   
+    list-style-type: none;
+}
+.social li{
+    margin: 10px;
+    display: inline;
+    
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.page-order{
+    color: white;
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/Frontbg-Pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-receipt{
+    color: white;
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/Frontbg-Pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5));
+    color: white;
+    font-size: 1rem;
+}
+.order-label{
+    color: white;
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 150px;
+        padding: 20px;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
