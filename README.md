@@ -17,8 +17,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<a href="https://www.behance.net/gallery/189482351/Patricks-Pizza-Website"><img src="https://github.com/paulopoig/Patrick-s-Pizza-/assets/78188625/b58acd06-82b8-4c40-8a93-a1b90d8f63e9" alt="Patrick's Pizza Website Showcase"></a>
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Patrick's Pizza is an e-commerce website my team and I built from scratch as a requirement for my Information Technology Management course. The goal was to create an online platform that could help streamline business operations for a real-world company. We searched for a suitable local franchise that could benefit from the core functionality of a traditional e-commerce site and selected Patrick's Pizza, a pizza chain based in Tondo, Manila.
 
