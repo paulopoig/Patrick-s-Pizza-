@@ -87,6 +87,16 @@ To build Patrick's Pizza Website's technological architecture, the developer lev
 * Enable customers to leave reviews and ratings for both products and services.
 * Use feedback to improve the quality of offerings and customer satisfaction.
 
+<!-- TEAM BEHIND PATRICK'S PIZZA -->
+## Team Behind Patrick's Pizza
+* <strong>Paulo Danque</strong> - Project Manager and Lead Front End and Back End Developer
+* Shellamie Akmad - Documentation
+* Alexandra Jane Arivas - Documentation
+* Jannah Mae Eugenio - Business Analyst
+* Renee Alynn Maglonzo - System Analyst
+* Jasmine Lianne Mangalindan - Documentation
+* Hanna Paraiso - Documentation
+
 <!-- CONTACT -->
 ## Contact
 If you have any questions about this project or would like to use this framework for your use case, please feel free to contact me at:
